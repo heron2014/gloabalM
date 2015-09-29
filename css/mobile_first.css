@@ -1,0 +1,91 @@
+/*==============================
+  #GENERAL
+================================*/
+/*1em = 16px*/
+html {
+    background-color: #FAFAFA;
+    font: 100%/1.3 'Open Sans ','Arial', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+body {
+
+    width: 100%;
+    height: 100%;
+}
+.search {
+    display: inline;
+}
+    .hamburger {
+        position: absolute;
+        float: left;
+        padding: 5px;
+        /*width: 40px;*/
+    }
+    .hamburger:hover {
+        cursor: pointer;
+    }
+    .fa-lg {
+        line-height: 1.3em !important;
+    }
+    #search-form {
+        text-align: center;
+        padding: 5px;
+    }
+        #search-btn {
+            background:#0099ff;
+            color:white;
+            padding: 5px;
+            /*border-radius:0 10px 10px 0;*/
+            /*-moz-border-radius:0 10px 10px 0;*/
+            /*-webkit-border-radius:0 10px 10px 0;*/
+            /*-o-border-radius:0 10px 10px 0;*/
+            border:0 none;
+            font-weight:bold;
+        }
+        #search-box {
+            background: #eee;
+            padding: 5px;
+            /*border-radius:10px 0 0 10px;*/
+            /*-moz-border-radius:10px 0 0 10px;*/
+            /*-webkit-border-radius:10px 0 0 10px;*/
+            /*-o-border-radius:10px 0 0 10px;*/
+            border:0 none;
+            width:160px;
+        }
+.container {
+    margin-bottom: 40px;
+    padding: 5px;
+}
+.thumbnail {
+    border: 1px solid black;
+    margin-bottom:2px;
+}
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background:#999;
+}
+    ul.nav {
+        padding: 0;
+        display:table;
+        width:100%;
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+    }
+        ul.nav li {
+            background-color: red;
+            display:table-cell;
+        }
+            ul.nav a {
+                text-decoration: none;
+                display: block;
+                padding: 8px;
+                border: 1px solid yellow;
+                text-align: center;
+            }
+
+
