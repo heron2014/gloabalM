@@ -1,7 +1,37 @@
 body {
-    background-color: red;
+    background-color: #f2f2f2;
     width: 100%;
 }
 ul.nav {
     display: none;
+}
+.search {
+    display: none;
+}
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+    background-color: #FFD777;
+}
+.search-desktop {
+    display: inline;
+}
+    #search-btn {
+        width: 100px;
+    }
+    #search-box {
+        width: auto;
+    }
+.box-wrapper {
+    display: inline-block;
+    min-width: 90%;
+    margin: 60px auto;
+    padding: 0 15px 15px 15px;
+
+}
+.box1, .box2, .box3, .box4 {
+    width: 22%;
+    float: left;
 }
